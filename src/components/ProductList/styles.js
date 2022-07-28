@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DivContainer = styled.div`
-  height: 300px;
+  height: 320px;
   display: flex;
   justify-content: flex-end;
   @media only screen and (min-width: 768px) {
@@ -31,12 +31,6 @@ export const DivContainer = styled.div`
       height: 100%;
       max-height: 650px;
       gap: 1%;
-    }
-    li {
-      border: 1px solid gray;
-      min-width: 200px;
-      width: 32%;
-      height: 250px;
     }
   }
 `;
