@@ -46,7 +46,7 @@ export const DivLogo = styled.div`
 export const DivForm = styled.div`
   width: 100%;
   height: 60px;
-  max-width: 365px;
+  max-width: 600px;
   @media only screen and (min-width: 768px) {
     display: flex;
     justify-content: flex-end;
