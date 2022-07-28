@@ -1,9 +1,17 @@
+import Card from "../Card";
 import { DivContainer } from "./styles";
 
 function ProductList() {
   return (
     <DivContainer>
-      <ul>{/* card.map */}</ul>
+      <ul>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </ul>
     </DivContainer>
   );
 }
