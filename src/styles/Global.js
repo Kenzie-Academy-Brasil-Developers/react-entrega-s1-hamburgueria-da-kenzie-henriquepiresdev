@@ -13,13 +13,16 @@ const GlobalStyle = createGlobalStyle`
   --color-warning: #ffcd07;
   --color-sucess: #168821;
   --color-information: #155bcb;
-  
+
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+}
+button{
+  cursor: pointer;
 }
 
 
