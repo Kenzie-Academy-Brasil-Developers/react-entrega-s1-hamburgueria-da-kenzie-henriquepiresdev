@@ -15,9 +15,15 @@ export const MainCard = styled.li`
     background-color: var(--color-grey-0);
     border-radius: 8px;
     border: 1px solid var(--color-grey-20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img {
       height: 100%;
       width: 100%;
+      @media only screen and (min-width: 768px) {
+        width: 60%;
+      }
     }
   }
   div {
