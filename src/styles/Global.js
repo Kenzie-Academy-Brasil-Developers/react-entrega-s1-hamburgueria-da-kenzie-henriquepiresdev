@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 :root{
-  --color-primary:#27AE60;
+  --color-primary:#ea1d2c;
   --color-primary-50:#93D7AF;
   --color-secondary:#EB5757;
   --color-gray-100: #333333;
@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
   --color-warning: #ffcd07;
   --color-sucess: #168821;
   --color-information: #155bcb;
-  
 }
 *{
   margin: 0;
@@ -21,6 +20,16 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+*{
+ cursor: default;
+}
+button{
+  cursor: pointer;
+}
+input{
+  cursor: text;
+}
+
 
 
 `;
