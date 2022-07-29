@@ -1,4 +1,5 @@
 import "./App.css";
+import Cart from "./components/Cart";
 import Header from "./components/Header";
 import ProductList from "./components/ProductList";
 import GlobalStyle from "./styles/Global";
@@ -8,7 +9,10 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Header />
-      <ProductList />
+      <main>
+        <ProductList />
+        <Cart />
+      </main>
     </div>
   );
 }

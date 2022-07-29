@@ -6,9 +6,13 @@ export const DivContainer = styled.div`
   justify-content: flex-end;
   @media only screen and (min-width: 768px) {
     margin: 0 auto;
-    justify-content: flex-start;
+    justify-content: center;
     height: 650px;
-    width: 70%;
+    width: 60%;
+    min-width: 620px;
+  }
+  @media only screen and (min-width: 830px) {
+    margin: 0;
   }
   ul {
     margin-top: 2%;
@@ -26,7 +30,7 @@ export const DivContainer = styled.div`
     @media only screen and (min-width: 768px) {
       justify-content: flex-start;
       margin-top: 1%;
-      width: 70%;
+      width: 100%;
       overflow: visible;
       height: 100%;
       max-height: 650px;

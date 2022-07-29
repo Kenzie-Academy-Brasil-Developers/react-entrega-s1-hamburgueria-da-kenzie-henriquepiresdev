@@ -20,7 +20,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 83%;
   }
 `;
 export const DivLogo = styled.div`
