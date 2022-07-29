@@ -1,3 +1,4 @@
+import CartProduct from "../CartProduct";
 import {
   DivCards,
   DivContainer,
@@ -19,13 +20,15 @@ function Cart() {
         </EmptyCart> */}
 
         <DivCards>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
-          <LiCard></LiCard>
+          <LiCard>
+            <CartProduct />
+          </LiCard>
+          <LiCard>
+            <CartProduct />
+          </LiCard>
+          <LiCard>
+            <CartProduct />
+          </LiCard>
         </DivCards>
         <LiTotal>
           <div>

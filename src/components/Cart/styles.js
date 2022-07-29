@@ -72,17 +72,18 @@ export const EmptyCart = styled.li`
 export const DivCards = styled.div`
   width: 100%;
   height: 100%;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   max-height: 500px;
-
-  overflow-x: scroll;
+  min-height: 300px;
+  overflow-y: scroll;
 `;
 export const LiCard = styled.li`
   margin-top: 1%;
-  background-color: brown;
+  background-color: var(--color-grey-20);
   border-radius: 8px;
   height: 80px;
   width: 90%;

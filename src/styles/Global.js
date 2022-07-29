@@ -20,9 +20,16 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+*{
+ cursor: default;
+}
 button{
   cursor: pointer;
 }
+input{
+  cursor: text;
+}
+
 
 
 `;
