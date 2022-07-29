@@ -1,11 +1,11 @@
 import Card from "../Card";
 import { DivContainer } from "./styles";
 
-function ProductList({ listProducts, setLiCart, liCart }) {
+function ProductList({ listProducts, setLiCart, liCart, filtredProducts }) {
   return (
     <DivContainer>
       <ul>
-        {listProducts.map((product) => (
+        {filtredProducts.map((product) => (
           <Card
             liCart={liCart}
             listProducts={listProducts}

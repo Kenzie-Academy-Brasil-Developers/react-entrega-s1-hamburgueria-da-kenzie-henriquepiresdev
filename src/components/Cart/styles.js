@@ -72,18 +72,18 @@ export const EmptyCart = styled.li`
 export const DivCards = styled.div`
   width: 100%;
   height: 100%;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-height: 500px;
-  min-height: 300px;
   overflow-y: scroll;
 `;
 export const LiCard = styled.li`
   margin-top: 1%;
   background-color: var(--color-grey-20);
+
   border-radius: 8px;
   height: 80px;
   width: 90%;
@@ -99,17 +99,17 @@ export const LiTotal = styled.li`
   flex-direction: column;
   align-items: center;
   div {
-    width: 100%;
+    width: 95%;
     height: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   button {
-    width: 70%;
-    background-color: var(--color-grey-50);
-    border: 2px solid var(--color-grey-50);
-    color: var(--color-grey-0);
+    width: 95%;
+    background-color: #e0e0e0;
+    border: 2px solid #e0e0e0;
+    color: #828282;
     height: 60px;
     border-radius: 10px;
     margin-bottom: 2%;

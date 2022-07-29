@@ -38,7 +38,7 @@ export const DivLogo = styled.div`
     font-size: 1.5rem;
   }
   span {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-size: 1.2rem;
   }
 `;
@@ -81,8 +81,8 @@ export const DivForm = styled.div`
       width: 28%;
       height: 40px;
       border-radius: 8px;
-      border: 2px solid #27ae60;
-      background-color: #27ae60;
+      border: 2px solid var(--color-primary);
+      background-color: var(--color-primary);
       color: white;
     }
   }
