@@ -1,16 +1,19 @@
 import Card from "../Card";
 import { DivContainer } from "./styles";
 
-function ProductList() {
+function ProductList({ listProducts, setLiCart, liCart }) {
   return (
     <DivContainer>
       <ul>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {listProducts.map((product) => (
+          <Card
+            liCart={liCart}
+            listProducts={listProducts}
+            product={product}
+            key={product.id}
+            setLiCart={setLiCart}
+          />
+        ))}
       </ul>
     </DivContainer>
   );

@@ -1,15 +1,22 @@
 import { DivCart } from "./style";
 
-function CartProduct() {
+function CartProduct({ product, setLiCart, liCart }) {
   return (
     <DivCart>
       <figure>
-        <img src="" alt="" />
+        <img src={product.img} alt="Imagem do produto" />
       </figure>
       <div>
-        <h4> Hamburguer</h4>
-        <p>Sanduíches</p>
-        <button>remover</button>
+        <h4>{product.name}</h4>
+        <p>{product.category}</p>
+        <button
+          onClick={() => {
+            const removed = liCart.filter((e) => e.id !== product.id);
+            setLiCart(removed);
+          }}
+        >
+          remover
+        </button>
       </div>
     </DivCart>
   );
