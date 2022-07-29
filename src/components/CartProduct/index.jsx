@@ -15,7 +15,7 @@ function CartProduct({ product, setLiCart, liCart }) {
             setLiCart(removed);
           }}
         >
-          remover
+          Remover
         </button>
       </div>
     </DivCart>
